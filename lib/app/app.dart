@@ -43,6 +43,7 @@ class App {
     AppTheme? appTheme,
     Function()? registerScreen,
     Function()? registerRepo,
+    Function()? registerBloc,
   }) async {
     _localizedValues = {};
     _appConfig = config;
@@ -77,6 +78,7 @@ class App {
       });
     }
     registerRepo?.call();
+    registerBloc?.call();
     registerScreen?.call();
 
     //check if app widget is registered
