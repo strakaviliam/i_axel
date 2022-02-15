@@ -1,1 +1,3 @@
-# i_axel
+# Sample app with API https://api.itbook.store/
+
+![gif](screens/gif.gif)
